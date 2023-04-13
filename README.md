@@ -10,18 +10,15 @@
 
 ```
 git clone https://github.com/niikkhilsharma/WhatsApp_bot.git
-
 ```
 
 ```
 Cd WhatsApp_bot
-
 ```
 
 
 ```
 npm i
-
 ```
 
 ****
@@ -30,7 +27,6 @@ npm i
 
 ```
 node index.js
-
 ```
 
 **Step 3:** After few seconds a QR would appear in front of you scan it through WhatsApp
