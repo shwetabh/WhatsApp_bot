@@ -1,6 +1,6 @@
 # ChatGPT Based WhatsApp Bot
 
-![Build Status](https://img.shields.io/badge/node-%5E18.16.0-green) ![Build Status](https://img.shields.io/badge/openai-%5E3.1.0-green) ![Build Status](https://img.shields.io/badge/whatsapp--web.js-%5E1.19.4-green) ![Build Status](https://img.shields.io/badge/qrcode-%5E1.5.1-green) ![Build Status](https://img.shields.io/badge/badwords-%5E1.0.0-green) ![Build Status](https://img.shields.io/badge/dotenv-%5E16.0.3-green) ![Build Status](https://img.shields.io/badge/ejs-%5E3.1.9-green) ![Build Status](https://img.shields.io/badge/qrcode--terminal-%5E0.12.0-green) ![Build status](https://img.shields.io/badge/wwebjs--mongo-%5E1.1.0-green) 
+![Build Status](https://img.shields.io/badge/node-%5E18.16.0-green) ![Build Status](https://img.shields.io/badge/openai-%5E3.1.0-green) ![Build Status](https://img.shields.io/badge/whatsapp--web.js-%5E1.19.4-green) ![Build Status](https://img.shields.io/badge/qrcode-%5E1.5.1-green) ![Build Status](https://img.shields.io/badge/badwords-%5E1.0.0-green) ![Build Status](https://img.shields.io/badge/dotenv-%5E16.0.3-green) ![Build Status](https://img.shields.io/badge/ejs-%5E3.1.9-green) ![Build Status](https://img.shields.io/badge/qrcode--terminal-%5E0.12.0-green) ![Build status](https://img.shields.io/badge/wwebjs--mongo-%5E1.1.0-green)
 ****
 ## How to use
 **Step 1:** Installing the bot and setting up the environment
@@ -22,22 +22,48 @@ npm i
 ```
 
 ****
-**Step 2:** Time to run the Bot
+**Step 2:** Create a .env file and insert your ChatGPT API key
 
+***In Windows***
+```
+echo > .env
+```
+
+***In mac***
+```
+touch .env
+```
+***In Linux***
+```
+touch .env
+```
+**After creating the .env file**
+
+**[How to get ChatGPT API Key](https://youtu.be/EIYapGbNRwk)**
+
+*Enter your ChatGPT Api key init and store in the value of a SECRET_KEY*
+
+*As Below*
+```
+SECRET_KEY="YOUR ChatGPT API KEY"
+```
+
+****
+**Step 3:** Time to run the Bot
 
 ```
 node index.js
 ```
 
-**Step 3:** After few seconds a QR would appear in front of you scan it through WhatsApp
+**Step 4:** After few seconds a QR would appear in front of you scan it through WhatsApp
 
 [How to scan QR through WhatsApp](https://faq.whatsapp.com/1079327266110265/?cms_platform=android)
 
-**Step 4:** After successful scanning a message would appear in terminal **You are ready to go**
+**Step 5:** After successful scanning a message would appear in terminal **You are ready to go**
 
 **Congratulations you've successfully installed ChatGPT Based WhatsApp_bot**
 
-**Step 5:** Now simply send a "Hi" message from your friends phone and it'll reply.
+**Step 6:** Now simply send a "Hi" message from your friends phone and it'll reply.
 
 ****
 
